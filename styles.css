@@ -16,10 +16,10 @@ grid-template-rows: repeat(20, 37px);
 }
 .square {
 border: 1px solid black;
-background-color:rgb(29, 29, 29); ;
+
 transition: all 0s, height 1s;
 transition-duration:1s;
 }
 .container :hover {
-background-color:rgb(29, 29, 29);
+background-color:rgb(29, 40, 29);
 }
