@@ -1,1 +1,28 @@
 /*  your css code here. If applicable */
+*{
+padding: 0;
+margin: 0;
+}
+body {
+width: 100vw;
+height: 100vh;
+}
+.container {
+background: #111111;
+display: grid;
+
+grid-template-columns: repeat(40, 37px);
+gap: 1px;
+grid-template-rows: repeat(20, 37px);
+}
+.square {
+border: 1px solid black;
+background: #1d1d1d;
+transition: all 0s, height 1s;
+}
+.container :nth-child(even):hover {
+background: blue;
+}
+.container :nth-child(odd):hover {
+background: purple;
+}
