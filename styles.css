@@ -19,10 +19,8 @@ grid-template-rows: repeat(20, 37px);
 border: 1px solid black;
 background: #1d1d1d;
 transition: all 0s, height 1s;
+	transition-duration:1s;
 }
-.container :nth-child(even):hover {
+.container :hover {
 background: blue;
-}
-.container :nth-child(odd):hover {
-background: purple;
 }
